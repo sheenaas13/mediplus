@@ -1,7 +1,7 @@
-# MediFast
+# MediPlus
 
 ## Project Description
-MediFast is a fully functional online pharmacy website built with Django.  
+MediPlus is a fully functional online pharmacy website built with Django.  
 Users can browse medicines, add them to their cart, and place orders with integrated payment options.  
 The website also uses AI-powered features (via OpenAI) for smart recommendations and enhanced user experience.
 
