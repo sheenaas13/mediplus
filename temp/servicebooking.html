@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %}Book Your Appointment | MediTrust{% endblock %}
+{% block title %}Book Your Appointment | MedPlus{% endblock %}
 
 {% block content %}
 
@@ -71,7 +71,7 @@
             "key": "{{ razorpay_key }}",
             "amount": "{{ total|floatformat:0 }}00",
             "currency": "INR",
-            "name": "MediTrust",
+            "name": "MedPlus",
             "description": "Service Booking Payment",
             "order_id": "{{ razorpay_order_id }}",
 

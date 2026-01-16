@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% block title %}MediTrust - Checkout{% endblock %}
+{% block title %}MedPlus - Checkout{% endblock %}
 
 {% block content %}
 <div class="checkout-container">
@@ -94,7 +94,7 @@
         "key": "{{ razorpay_key }}",
         "amount": "{{ total|floatformat:2|add:'0' }}00",
         "currency": "INR",
-        "name": "MediTrust",
+        "name": "MedPlus",
         "description": "Order Payment",
         "order_id": "{{ razorpay_order_id }}",
         "handler": function (response) {
