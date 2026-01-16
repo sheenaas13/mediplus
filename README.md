@@ -1,31 +1,44 @@
-# MediPlus
+# MediPlus - Smart Pharmacy E-Commerce Website
 
-## Project Description
-MediPlus is a fully functional online pharmacy website built with Django.  
-Users can browse medicines, add them to their cart, and place orders with integrated payment options.  
-The website also uses AI-powered features (via OpenAI) for smart recommendations and enhanced user experience.
+## Project Overview
+**MediPlus** is a fully functional, modern e-commerce website for pharmacies. It allows users to browse products, add them to a cart, and make secure payments. Additionally, it features a **smart chatbot powered by OpenAI**, which provides instant assistance to users. This project demonstrates full-stack development skills using **Python, Django, and modern web deployment practices**.
+
+---
 
 ## Features
-- User registration and login
-- Browse and search medicines
-- Add products to cart and manage orders
-- Secure payment integration with Razorpay
-- AI-powered recommendations (OpenAI integration)
-- Responsive design for mobile and desktop
 
-## Technologies Used
-- Python 3.x
-- Django
-- HTML, CSS, JavaScript
-- SQLite (or your database)
-- Razorpay (for payments)
-- OpenAI API
-- Deployment: Render (backend + frontend)
+### User Features
+- User registration and login/logout system
+- Browse a wide range of pharmacy products
+- Add products to cart and update quantities
+- Secure payment integration using **Razorpay**
+- Interactive chatbot powered by **OpenAI** for instant user assistance
+- Responsive and user-friendly interface
 
-## Deployment
-Live website: [Insert your Render deployment link here]
+### Admin Features
+- Admin dashboard to manage products, orders, and users
+- View and update order status
+- Add, update, or remove products
+- Manage website content dynamically
 
-## How to Run Locally
+### Additional Features
+- Fully responsive design for desktop and mobile
+- Static files handled efficiently with **WhiteNoise**
+- Environment variables securely configured for API keys
+
+---
+
+## Tech Stack
+- **Backend:** Python, Django
+- **Frontend:** HTML, CSS, JavaScript
+- **Database:** SQLite (for development)
+- **APIs:** Razorpay, OpenAI
+- **Deployment:** Render
+- **Other Libraries:** dotenv, whitenoise, gunicorn, crispy-forms
+
+---
+
+## Installation (Local Development)
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/sheenaas13/mediplus.git
+```bash
+git clone https://github.com/sheenaas13/mediplus.git
